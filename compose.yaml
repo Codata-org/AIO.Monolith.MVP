@@ -1,0 +1,8 @@
+﻿services:
+  aio.monolith.mvp:
+    image: aio.monolith.mvp
+    build:
+      context: .
+      dockerfile: AIO.Monolith.MVP/Dockerfile
+    ports:
+      - "80:80"
